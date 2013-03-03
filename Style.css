@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #1d3d04 url(Fondo.png);
+    background-repeat: repeat-x;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    text-shadow: 1px 1px 1px #808080;
+}
+
+#contenedor {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#contenido {
+    background: #fff;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+#imglogo {
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+nav ul {
+    font-size: 0;
+    padding: 0;
+    background: #1d3d04 url('FondoMenu.png') repeat-x;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    padding: 4px 0;
+    vertical-align: top;
+    width: 25%;
+}
+
+nav ul li:hover {
+    background: #360;
+    color: #B7E43F;
+}
+
+nav ul li img {
+    height: 50px;
+}
+
+nav ul li a {
+    color: #DDD;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+#posts {
+    text-align: center;
+}
+
+#posts article {
+    text-align: left;
+    border-bottom: solid 1px #ccc;
+    color: #65a606;
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+    width: 250px;
+}
+
+#posts article img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 2%;
+}
+
+article {
+    display: inline-block;
+}
+
+#posts article:hover {
+    cursor: pointer;
+    color: #1d3d04;
+}
+
+
+
+footer {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+footer a, footer a:visited {
+    font-weight: bold;
+    color: #fff;
+}
+
+
+@media screen and (max-width:800px) {
+    nav ul li {
+        width: 50%;
+    }
+
+    nav ul li img {
+        height: 80%;
+    }
+
+    #imglogo {
+        max-width: 60%;
+    }
+}
